@@ -72,8 +72,6 @@
 
         .card-front { z-index: 2; transform: rotateY(0deg); }
         .card-back { z-index: 1; transform: rotateY(180deg); background: linear-gradient(180deg, #ffffff 0%, #f1f4f8 100%); }
-        .is-flipped .card-front { z-index: 1; }
-        .is-flipped .card-back { z-index: 3; }
 
         .header {
             background-color: var(--primary-blue);
@@ -166,7 +164,7 @@
                 <div class="flip-icon-top">
                     <svg viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg>
                 </div>
-                <div style="font-size: 12px; letter-spacing: 3px; opacity: 0.9; font-weight: 600; margin-bottom: 5px;">HEDEF TECHNOLOGY SOLUTIONS</div>
+                <div style="font-size: 11px; letter-spacing: 2px; opacity: 0.9; font-weight: 600; margin-bottom: 5px;">HEDEF TECHNOLOGY SOLUTIONS</div>
                 <h1 class="user-name">Enes KOMECOGLU</h1>
                 <div style="font-style: italic; font-size: 14px; opacity: 0.9;">Marketing & Business Development Director</div>
             </div>
@@ -209,11 +207,11 @@
                 <img src="indir.jpg" alt="Hedef Logo" class="logo-back">
                 
                 <div class="info-list">
-                    <a href="https://maps.app.goo.gl/3q2Y8o9R5yGfR1f96" target="_blank" class="info-card" onclick="event.stopPropagation()">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Acıbadem+Mah.+Ciftlik+Sokak+No:8/B+Kadikoy+Istanbul" target="_blank" class="info-card" onclick="event.stopPropagation()">
                         <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
                         <div class="info-text">
                             <span class="info-label">KONUM</span>
-                            Acıbadem Mah. Ciftlik Sokak No:8/B Acibadem-Kadikoy / İSTANBUL
+                            Acıbadem Mah. Ciftlik Sokak No:8/B Acıbadem-Kadıköy / İSTANBUL
                         </div>
                     </a>
 
@@ -254,7 +252,7 @@
         const url = window.URL.createObjectURL(blob);
         const a = document.createElement("a");
         a.href = url;
-        a.download = "EnesKomecogLu.vcf";
+        a.download = "EnesKomecoglu.vcf";
         a.click();
     }
 </script>
